@@ -7,7 +7,7 @@ Technologies Used:<br>
 HTML5 <br>
 CSS3
 
-DEMO:
+Sneak-Peak:
 ![image](https://github.com/Madhuri36/Amazon-clone/assets/146222028/59bdb03a-e02d-4923-a464-a8486ee20249)
 <br>
 <br>
