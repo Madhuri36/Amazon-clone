@@ -141,13 +141,17 @@ span{
 }
 
 /** Box 7 **/
+
+.nav-cart{
+    display: flex;
+    align-items: flex-end;
+    font-size: 0.95rem;
+    font-weight: 700;
+    
+}
 .nav-cart i{
     font-size:35px;
     height:30px;
-}
-.nav-cart{
-    font-size: 0.85rem;
-    font-weight: 700;
 }
 .nav-cart:hover{
     cursor: pointer;
@@ -338,4 +342,342 @@ footer{
 }
 .copyright{
     padding-top: 7.5px;
+}
+
+/** MEDIA QUERIES **/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+    /** NAVBAR **/
+    .navbar{
+        height:45px;
+    }
+    .nav-logo{
+        margin-left: 0px;
+        height: 40px;
+        width:70px;
+    }
+
+    .logo{
+        margin-left: 0;
+        padding:0;
+        background-size: cover;
+        height:40px;
+        width:70px;
+    }
+
+    .add-first{
+        font-size: 0.45rem;
+        margin-left: 9px;
+    }
+    .add-second{
+        font-size: 0.85rem;
+        margin-left: 3px;
+    }
+    
+    .address-icon{
+        font-size: 0.6rem;
+    }
+    .nav-search{
+        margin-left:10px;
+        width:180px;
+        height: 30px;
+    }
+    
+    .search-select{
+        width:40px;
+    }
+    
+    .search-input{
+        width:100%;
+        font-size: 0.75rem;
+    }
+    
+    .search-icon{
+        width:30px;
+        font-size: 0.85rem;
+    } 
+    .flag-icon img {
+        margin-left: 8px;
+        width: 15px;
+    }
+    
+    .flag-select {
+        font-size: 10px;
+        font-weight:600;
+    }
+    .nav-signin{
+        margin-left: 9px;
+    }
+    .nav-return{
+        margin-left: 9px;
+    }
+
+    span{
+        font-size: 0.55rem;
+    }
+    
+    .nav-second{
+        font-size: 0.65rem;
+    }
+    .nav-cart{
+        margin-left: 9px;
+        margin-right: 5px;
+    }
+    .nav-cart i{
+        font-size:25px;
+        height:20px;
+    }
+    .nav-cart p{
+        display: none;
+    }
+    .panel{
+        height:35px;
+    }
+    
+    .panel-options p{
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 0.65rem;
+    }
+    .panel-all{
+        width:40px;
+        margin-left:6px;
+        font-weight:400;
+    }
+    .panel-options{
+        width:100%;
+        font-size: 0.5rem;
+        font-weight: 600;
+    }
+
+    /** HERO SECTION */
+    .hero-section{
+        height:230px;
+    }
+    .hero-msg{
+        height: 30px;
+        font-size: 0.55rem;
+        margin-bottom: 25px;
+    }
+
+    /** SHOPPING SECTION **/
+    .box{
+        height: 300px;
+        width:45%;
+    }
+    
+    .box-img{
+        height: 200px;
+    }
+    
+    .box-content h2{
+        font-size: 1.1rem;
+    }
+
+    /** FOOTER **/
+    .foot-panel2{
+        height:400px;
+    }
+
+    .foot-panel2 ul a{
+        font-size: 0.6rem;
+        margin-right: 10px;
+    }
+
+    .pages a{
+        font-size: 0.6rem;
+        margin-right: 10px;
+        margin-left: 10px;
+    }   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    /** NAVBAR **/
+    .navbar{
+        height:45px;
+    }
+    .nav-logo{
+        margin-left: 0px;
+        height: 40px;
+        width:70px;
+    }
+
+    .logo{
+        margin-left: 0;
+        padding:0;
+        background-size: cover;
+        height:40px;
+        width:70px;
+    }
+
+    .add-first{
+        font-size: 0.45rem;
+        margin-left: 9px;
+    }
+    .add-second{
+        font-size: 0.85rem;
+        margin-left: 3px;
+    }
+    
+    .address-icon{
+        font-size: 0.6rem;
+    }
+    .nav-search{
+        margin-left:10px;
+        width:auto;
+        height: 30px;
+    }
+    
+    .search-select{
+        width:40px;
+    }
+    
+    .search-input{
+        width:100%;
+        font-size: 0.75rem;
+    }
+    
+    .search-icon{
+        width:30px;
+        font-size: 0.85rem;
+    } 
+    .flag-icon img {
+        margin-left: 8px;
+        width: 15px;
+    }
+    
+    .flag-select {
+        font-size: 10px;
+        font-weight:600;
+    }
+    .nav-signin{
+        margin-left: 9px;
+    }
+    .nav-return{
+        margin-left: 9px;
+    }
+
+    span{
+        font-size: 0.55rem;
+    }
+    
+    .nav-second{
+        font-size: 0.65rem;
+    }
+    .panel{
+        height:35px;
+    }
+    
+    .panel-options p{
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 0.65rem;
+    }
+    .panel-all{
+        width:40px;
+        margin-left:6px;
+        font-weight:400;
+    }
+    .panel-options{
+        width:100%;
+        font-size: 0.5rem;
+        font-weight: 600;
+    }
+    /** HERO SECTION */
+    .hero-section{
+        height:300px;
+    }
+    .hero-msg{
+        height: 40px;
+        font-size: 0.7rem;
+        margin-bottom: 25px;
+    }
+
+    /** SHOPPING SECTION **/
+    .box{
+        height: 300px;
+        width:45%;
+    }
+    
+    .box-img{
+        height: 200px;
+    }
+    
+    .box-content h2{
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /** NAVBAR **/
+    .navbar{
+        height:50px;
+    }
+
+    .add-first{
+        font-size: 0.65rem;
+        margin-left: 9px;
+    }
+    .add-second{
+        font-size: 0.85rem;
+        margin-left: 3px;
+    }
+    
+    .address-icon{
+        font-size: 0.8rem;
+    }
+    .nav-search{
+        width:300px;
+        height: 30px;
+    }
+    
+    .search-input{
+        width:100%;
+        font-size: 0.95rem;
+    }
+    
+    .flag-icon img {
+        margin-left: 8px;
+        width: 25px;
+    }
+    
+    .flag-select {
+        font-size: 10px;
+        font-weight:600;
+    }
+    
+    .panel{
+        height:40px;
+    }
+    
+    
+    /** HERO SECTION */
+    .hero-section{
+        height:350px;
+    }
+    .hero-msg{
+        height: 50px;
+        font-size: 0.85rem;
+        margin-bottom: 25px;
+    }
+
+    /** SHOPPING SECTION **/
+    .box-content h2{
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .nav-search{
+        width: 500px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .nav-search{
+        width: 1000px;
+    }
 }
