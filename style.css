@@ -3,6 +3,11 @@
     font-family: Arial;
     border:border-box;   
 }
+body {
+    min-width: 480px;
+    overflow-x: auto; /* or hidden, depending on your design choice */
+}
+
 
 .navbar{
     height:60px;
@@ -755,7 +760,6 @@ footer{
         font-size: 1.3rem;
     }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     /** NAVBAR **/
     .navbar{
