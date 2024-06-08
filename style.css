@@ -346,8 +346,154 @@ footer{
 
 /** MEDIA QUERIES **/
 
+@media only screen and (max-width: 480px){
+    /** NAVBAR **/
+    .navbar{
+        height:40px;
+    }
+    .nav-logo{
+        margin-left: 0px;
+        height: 30px;
+        width:50px;
+    }
+
+    .logo{
+        margin-left: 0;
+        height:30px;
+        width:50px;
+    }
+
+    .add-first{
+        font-size: 0.45rem;
+        margin-left: 6px;
+    }
+    .add-second{
+        font-size: 0.85rem;
+        margin-left: 3px;
+    }
+    
+    .address-icon{
+        font-size: 0.5rem;
+    }
+    .nav-search{
+        margin-left:7px;
+        width:150px;
+        height: 30px;
+    }
+    
+    .search-select{
+        width:37px;
+    }
+    
+    .search-input{
+        width:100%;
+        font-size: 0.75rem;
+    }
+    
+    .search-icon{
+        width:30px;
+        font-size: 0.75rem;
+    } 
+    .flag-icon img {
+        margin-left: 7px;
+        width: 10px;
+    }
+    
+    .flag-select {
+        font-size: 8px;
+        font-weight:600;
+    }
+    .nav-signin{
+        margin-left: 7px;
+    }
+    .nav-return{
+        margin-left: 7px;
+    }
+
+    span{
+        font-size: 0.45rem;
+    }
+    
+    .nav-second{
+        font-size: 0.55rem;
+    }
+    .nav-cart{
+        margin-left: 7px;
+        margin-right: 5px;
+    }
+    .nav-cart i{
+        font-size:20px;
+        height:20px;
+    }
+    .nav-cart p{
+        display: none;
+    }
+    .panel{
+        height:30px;
+    }
+    
+    .panel-options p{
+        margin-left: 8px;
+        font-weight: 500;
+        font-size: 0.65rem;
+    }
+    .panel-all{
+        width:40px;
+        font-size: 0.85rem;
+        margin-left:6px;
+        font-weight:400;
+    }
+    .panel-options{
+        width:100%;
+        font-size: 0.5rem;
+        font-weight: 600;
+    }
+
+    /** HERO SECTION */
+    .hero-section{
+        height:200px;
+    }
+    .hero-msg{
+        height: 30px;
+        font-size: 0.45rem;
+        margin-bottom: 25px;
+    }
+
+    /** SHOPPING SECTION **/
+    .box{
+        height: 300px;
+        width:45%;
+    }
+    
+    .box-img{
+        height: 200px;
+    }
+    
+    .box-content h2{
+        font-size: 0.9rem;
+    }
+
+    /** FOOTER **/
+    .foot-panel2{
+        height:450px;
+    }
+
+    .foot-panel2 ul a{
+        font-size: 0.6rem;
+        margin-right: 10px;
+    }
+
+    .pages a{
+        font-size: 0.5rem;
+        margin-right: 10px;
+        margin-left: 10px;
+    }   
+}
+
+
+
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px){
+@media only screen and (min-width:480px) and (max-width: 600px){
     /** NAVBAR **/
     .navbar{
         height:45px;
