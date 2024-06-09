@@ -1,4 +1,4 @@
-Amazon Clone Website
+Amazon Clone Website 
 
 Welcome to the Amazon Clone website project! This repository contains the code for a basic Amazon clone website 
 built using HTML and CSS. The project aims to replicate the basic layout and design of the Amazon homepage.
